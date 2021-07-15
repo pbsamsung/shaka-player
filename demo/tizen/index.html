@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="Tizen App for ShakaPlayer demo page" />
+  <title>Tizen App for ShakaPlayer demo page</title>
+
+  <script>
+
+    window.onload = function () {
+
+      console.log("window.onload() called");
+
+      //var webAppURL = "http://106.120.44.31:5500/demo/#audiolang=en-GB;textlang=en-GB;uilang=en-GB;panel=HOME;build=uncompiled";
+      var webAppURL = "https://shaka-player-demo.appspot.com/demo/index.html";
+
+      console.log("Trying to open ShakaPlayer demo page ...");
+      window.location.assign(webAppURL);
+    };
+
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>
